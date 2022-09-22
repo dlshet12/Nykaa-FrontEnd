@@ -1,0 +1,41 @@
+.advertise1 {
+  background-image: url("../../asset/pictures/add-1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+.adContainer {
+}
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 55px;
+  color: rgb(7, 7, 7);
+  z-index: 1;
+  cursor: pointer;
+}
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 55px;
+  color: rgb(2, 2, 2);
+  z-index: 1;
+  cursor: pointer;
+}
+.dotcontainerstyle {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(239, 232, 232);
+}
+.dotstyle {
+  margin: 0 6px;
+  cursor: pointer;
+  font-size: 40px;
+  color: rgb(237, 144, 195);
+}
