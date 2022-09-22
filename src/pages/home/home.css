@@ -1,0 +1,121 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+.offerBnner {
+  height: 5vh;
+  background-image: url("../../asset/pictures/nykaa\ common-strip.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.NykaaLogo {
+  background-image: url("../../asset/pictures/nykaa.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+  height: 10vh;
+  margin-left: 40px;
+}
+.categories {
+  margin-top: -44px;
+  margin-left: -70%;
+  font-weight: 600;
+}
+.topleftheader {
+  height: 50px;
+  margin-top: -35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.searchbarContainer {
+  margin-left: 60%;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: rgb(239, 232, 232);
+  border: 0px;
+  width: 15%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px rgb(207, 206, 206);
+}
+.searchicon {
+  background-image: url("../../asset/pictures/search.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding: 10px;
+  background-position: 2px;
+}
+.searchbar::placeholder {
+  color: black;
+}
+.searchbar {
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background-color: rgb(239, 232, 232);
+  outline-width: 0;
+}
+.user {
+  background-image: url("../../asset/pictures/user.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  height: 4vh;
+  width: 5%;
+}
+.shoppinbag {
+  background-image: url("../../asset/pictures/shopping-bag.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 10%;
+  height: 10vh;
+}
+.headline {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+.subCategoriesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 3vh;
+}
+.offertag {
+  background-image: url("../../asset/pictures/nykaa\ offer\ png.webp");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  width: 5%;
+  height: 3vh;
+  background-color: aqua;
+}
+.headerline {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  box-shadow: 0 2px 3px 0 rgba(140, 138, 138, 0.1);
+}
+.carousalContainer {
+  height: 48vh;
+  background-color: white;
+}
+.carousal {
+  height: 45vh;
+  background-color: rgb(188, 174, 174);
+}
+.blankspace {
+  height: 3vh;
+  background-color: white;
+}
+.offerimages {
+  background-color: rgb(239, 232, 232);
+}
+
+.nykaaoffer {
+  background-image: url("../../asset/pictures/nykaa-buy-3.png");
+  background-repeat: no-repeat;
+  margin: 20px 250px;
+  height: 25vh;
+  background-color: black;
+  background-repeat: none;
+  background-size: 100%;
+}
